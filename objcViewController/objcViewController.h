@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char objcViewControllerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcViewController/PublicHeader.h>
 
-
+#import <objcViewController/UIViewController+VDInstance.h>
+#import <objcViewController/UIViewController+VDHierarchy.h>
+#import <objcViewController/UIViewController+VDPresent.h>
+#import <objcViewController/UIViewController+VDViewState.h>
